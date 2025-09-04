@@ -18,7 +18,7 @@ app.use(cors({
 }))
 
 
-console.log(hello)
+
 app.use(express.json())
 app.use(cookieParser())
 app.use(morgan('dev'))
