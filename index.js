@@ -17,6 +17,8 @@ app.use(cors({
     origin : 'http://localhost:3000'
 }))
 
+
+console.log(hello)
 app.use(express.json())
 app.use(cookieParser())
 app.use(morgan('dev'))
